@@ -67,19 +67,19 @@ hr {
     width: 300px;
 }
 
-@media (min-width: 300px) {
+@media (min-width: 305px) {
     .work-container {
         width: 300px;
     }
 }
 
-@media (min-width: 600px) {
+@media (min-width: 605px) {
     .work-container {
         width: 600px;
     }
 }
 
-@media (min-width: 900px) {
+@media (min-width: 905px) {
     .work-container {
         width: 900px;
     }
