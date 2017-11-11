@@ -4,6 +4,11 @@
     --blue: #02b3e4;    
 }
 
+p {
+    font-family: Ubuntu;
+    font-size: 12px;
+}
+
 h1 {
     font-family: Ubuntu;
     font-size: 32px;
