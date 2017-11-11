@@ -58,6 +58,7 @@ hr {
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-between;
+    align-items: center;
 }
 
 /* Modified from https://stackoverflow.com/a/39862756/6603003 */
