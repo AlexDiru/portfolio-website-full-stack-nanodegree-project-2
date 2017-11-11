@@ -1,4 +1,6 @@
-Portfolio website
+![Screenshot of portfolio website](Screenshot.png)
+
+Responsive portfolio website
 - HTML
 - CSS
 - Flexbox
