@@ -20,67 +20,89 @@
     </head>
     <body>
         <div style="text-align:center;">
-            <div class="align-div">
-                <div class="title-container">
-                    <h1>Alex Spedding</h1>
-                    <h2>Portfolio /// Software Engineer</h2>
-                </div>
+            <div class="align-div">      
+                <header>
+                    <div class="title-container">
+                        <h1>Alex Spedding</h1>
+                        <h2>Portfolio /// Software Engineer</h2>
+                    </div>
+                </header>
 
                 <!-- Add a 'clear' div so that the title container doesn't go behind any subsequent divs -->
                 <div class="clear-div"/>
 
                 <hr>
 
-                <div class="main-image-container">
-                    <img style="max-width: 100%;" src="img/main-image.png"/>
-                </div>
+                <section id="main-image-section">
+                    <div class="main-image-container">
+                        <img style="max-width: 100%;" src="img/main-image.png"/>
+                    </div>
+                </section>
 
-                <div style="float:left;">
-                    <h1 class="featured-work-title">Featured Work</h2>
-                </div>
+                <section id="featured-work-section">
+                    <div style="float:left;">
+                        <h1 class="featured-work-title">Featured Work</h2>
+                    </div>
 
-                <div class="clear-div"/>
+                    <div class="clear-div"/>
 
-                <div style="text-align:center;">
-                    <div class="work-container"> 
-                        <div>
-                            <img src="img/doomwadue.jpg" class="work-image"/>
-                            <h2 class="work-title">Unreal Engine Doom WAD Importer</h2>
-                        </div>
-                        <div>
-                            <img src="img/99thstreet.jpg" class="work-image"/>
-                            <h2 class="work-title">99th Street</h2>
-                            <h3 class="work-title"><a href="https://alexdiru.itch.io/99th-street">https://alexdiru.itch.io/99th-street</a></h3>
-                        </div>
-                        <div>
-                            <img src="img/omega.jpg" class="work-image"/>
-                            <h2 class="work-title">Omega</h2>
-                            <h3 class="work-title"><a href="https://alexdiru.itch.io/omega">https://alexdiru.itch.io/omega</a></h3>
-                        </div>
-                        <div>
-                            <img src="img/stealth.png" class="work-image"/>
-                            <h2 class="work-title">Stealth Game</h2>
-                        </div>
-                        <div>
-                            <img src="img/redleaf.png" class="work-image"/>
-                            <h2 class="work-title">Red Leaf</h2>
-                        </div>
-                        <div>
-                            <img src="img/jetsetreverse.png" class="work-image"/>
-                            <h2 class="work-title">Jet Set Reverse</h2>
-                            <h3 class="work-title"><a href="https://github.com/AlexDiru/jet-set-reverse">https://github.com/AlexDiru/jet-set-reverse</a></h3>
-                        </div>
-                        <div>
-                            <img src="img/electricrain.png" class="work-image"/>
-                            <h2 class="work-title">Electric Rain</h2>
-                            <h3 class="work-title"><a href="https://github.com/AlexDiru/electric-rain">https://github.com/AlexDiru/electric-rain</a></h3>
-                        </div>
-                        <div>
-                            <img src="img/barricade.jpg" class="work-image"/>
-                            <h2 class="work-title">Barricade</h2>
+                    <div style="text-align:center;">
+                        <div class="work-container"> 
+                            <article id="Doom WAD Importer">
+                                <div>
+                                    <img src="img/doomwadue.jpg" class="work-image"/>
+                                    <h2 class="work-title">Unreal Engine Doom WAD Importer</h2>
+                                </div>
+                            </article>
+                            <article id="99th Street">
+                                <div>
+                                    <img src="img/99thstreet.jpg" class="work-image"/>
+                                    <h2 class="work-title">99th Street</h2>
+                                    <h3 class="work-title"><a href="https://alexdiru.itch.io/99th-street">https://alexdiru.itch.io/99th-street</a></h3>
+                                </div>
+                            </article>
+                            <article id="Omega">
+                                <div>
+                                    <img src="img/omega.jpg" class="work-image"/>
+                                    <h2 class="work-title">Omega</h2>
+                                    <h3 class="work-title"><a href="https://alexdiru.itch.io/omega">https://alexdiru.itch.io/omega</a></h3>
+                                </div>
+                            </article>
+                            <article id="Stealth Game">
+                                <div>
+                                    <img src="img/stealth.png" class="work-image"/>
+                                    <h2 class="work-title">Stealth Game</h2>
+                                </div>
+                            </article>
+                            <article id="Red Leaf">
+                                <div>
+                                    <img src="img/redleaf.png" class="work-image"/>
+                                    <h2 class="work-title">Red Leaf</h2>
+                                </div>
+                            </article>
+                            <article id="Jet Set Reverse">
+                                <div>
+                                    <img src="img/jetsetreverse.png" class="work-image"/>
+                                    <h2 class="work-title">Jet Set Reverse</h2>
+                                    <h3 class="work-title"><a href="https://github.com/AlexDiru/jet-set-reverse">https://github.com/AlexDiru/jet-set-reverse</a></h3>
+                                </div>
+                            </article>
+                            <article id="Electric Rain">
+                                <div>
+                                    <img src="img/electricrain.png" class="work-image"/>
+                                    <h2 class="work-title">Electric Rain</h2>
+                                    <h3 class="work-title"><a href="https://github.com/AlexDiru/electric-rain">https://github.com/AlexDiru/electric-rain</a></h3>
+                                </div>
+                            </article>
+                            <article id="Barricade">
+                                <div>
+                                    <img src="img/barricade.jpg" class="work-image"/>
+                                    <h2 class="work-title">Barricade</h2>
+                                </div>
+                            </article>
                         </div>
                     </div>
-                </div>
+                </section>
             </div>
         </div>
     </body>
