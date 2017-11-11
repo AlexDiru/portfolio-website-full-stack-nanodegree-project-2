@@ -57,10 +57,15 @@ hr {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: center;
-    margin: 0 auto;
+    justify-content: space-between;
 }
 
+/* Modified from https://stackoverflow.com/a/39862756/6603003 */
+.work-container > div {
+    box-sizing: border-box;
+    margin-bottom: 10px;
+    width: 300px;
+}
 
 @media (min-width: 300px) {
     .work-container {
@@ -81,7 +86,7 @@ hr {
 }
 
 .work-image {
-    width: 300px;
+    width: 275px;
     height: 200px;
 }
 
