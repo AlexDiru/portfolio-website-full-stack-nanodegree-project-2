@@ -9,6 +9,7 @@ Changelog post 1st code review
 - HTML validates (apart from a single warning which tells me to add a h2-h6 where I don't want any heading)
 - CSS validates 
 - No style in HTML
+- Border instead of hr rule
 
 Had some help on Stack Overflow with what turned out to require media queries: https://stackoverflow.com/questions/47242515/make-a-flex-div-the-same-size-as-its-content
 
