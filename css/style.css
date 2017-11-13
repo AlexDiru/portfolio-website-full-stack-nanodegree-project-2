@@ -1,9 +1,3 @@
-:root {
-    --dark-grey: #2d3c49;
-    --grey: #7d97ad;
-    --blue: #02b3e4;    
-}
-
 p {
     font-family: Ubuntu;
     font-size: 12px;
@@ -12,11 +6,19 @@ p {
 h1 {
     font-family: Ubuntu;
     font-size: 32px;
-    font-style: bold;
     font-variant: normal;
     font-weight: 500;
     line-height: 15.4px;
-    color: var(--dark-grey);
+    color: #2d3c49;
+}
+
+.featured-work-title {
+    font-family: Ubuntu;
+    font-size: 32px;
+    font-variant: normal;
+    font-weight: 500;
+    line-height: 15.4px;
+    color: #2d3c49;
 }
 
 h2 {
@@ -26,7 +28,7 @@ h2 {
     font-variant: normal;
     font-weight: 500;
     line-height: 15.4px;
-    color: var(--dark-grey);
+    color: #2d3c49;
 }
 
 h3 {
@@ -36,7 +38,7 @@ h3 {
     font-variant: normal;
     font-weight: 500;
     line-height: 15.4px;
-    color: var(--dark-grey);
+    color: #2d3c49;
 }
 
 .main-image-container {
@@ -47,9 +49,21 @@ h3 {
 hr {
     border: none;
     height: 1px;
-    color: var(--grey);
-    background-color: var(--grey);
+    color: #7d97ad;
+    background-color: #7d97ad;
     width: 90%;
+}
+
+.centre-div {
+    text-align: center;
+}
+
+.float-left-div {
+    float: left;
+}
+
+.main-image {
+    max-width: 100%;
 }
 
 .title-container {
@@ -63,6 +77,11 @@ hr {
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-between;
+}
+
+.featured-work-description-container {
+    float: left;
+    text-align: left;
 }
 
 /* Modified from https://stackoverflow.com/a/39862756/6603003 */
